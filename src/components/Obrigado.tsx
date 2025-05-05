@@ -5,7 +5,7 @@ import { Terminal } from './Terminal';
 
 export const Obrigado: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center px-4 py-20 overflow-hidden">
+    <section className="relative min-h-screen bg-black flex flex-col justify-center items-center px-4 py-20 overflow-hidden">
       
       {/* Plano de fundo com grid e linhas animadas */}
       <div className="absolute inset-0 bg-grid z-0 opacity-10"></div>
