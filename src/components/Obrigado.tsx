@@ -6,7 +6,8 @@ import { Terminal } from './Terminal';
 export const Obrigado: React.FC = () => {
   return (
     <section className="relative min-h-screen flex flex-col justify-center items-center px-4 py-20 overflow-hidden">
-      {/* Background Grid */}
+      
+      {/* Plano de fundo com grid e linhas animadas */}
       <div className="absolute inset-0 bg-grid z-0 opacity-10"></div>
       <div className="absolute inset-0 z-0">
         {Array.from({ length: 10 }).map((_, i) => (
@@ -23,7 +24,7 @@ export const Obrigado: React.FC = () => {
         ))}
       </div>
 
-      {/* HUD Elements */}
+      {/* HUD Elementos de topo */}
       <div className="absolute top-8 right-8 border border-magenta-500 bg-black bg-opacity-50 p-2 text-xs text-magenta-500 z-10 font-mono">
         <div className="flex items-center">
           <div className="h-2 w-2 rounded-full bg-magenta-500 mr-2 animate-pulse"></div>
@@ -35,7 +36,7 @@ export const Obrigado: React.FC = () => {
         <div className="text-xs text-purple-500 font-mono">PRO.IA.GUIDE.2025</div>
       </div>
 
-      {/* Main Content */}
+      {/* Conteúdo principal */}
       <div className="container mx-auto z-10 text-center">
         <div className="inline-block mb-4 px-3 py-1 border border-magenta-500 bg-black bg-opacity-50 text-magenta-500 text-sm font-mono">
           PARABÉNS!
@@ -52,6 +53,7 @@ export const Obrigado: React.FC = () => {
           Você já pode acessar o <strong>Guia PRO.IA</strong> e entrar no nosso grupo com conteúdo VIP.
         </p>
 
+        {/* Botões de ação */}
         <div className="mb-8 flex flex-col sm:flex-row gap-4 justify-center">
           <CTAButton href="https://chat.whatsapp.com/JBSRuGOB7WH0UtcaQSuetM">
             ENTRAR NO GRUPO VIP
@@ -61,6 +63,7 @@ export const Obrigado: React.FC = () => {
           </CTAButton>
         </div>
 
+        {/* Terminal com mensagens de progresso */}
         <Terminal
           text={[
             'Confirmando pagamento... OK',
@@ -71,6 +74,7 @@ export const Obrigado: React.FC = () => {
         />
       </div>
 
+      {/* HUD inferior */}
       <div className="absolute bottom-8 left-0 right-0 flex justify-center">
         <div className="h-px w-40 bg-magenta-500 animate-pulse"></div>
       </div>

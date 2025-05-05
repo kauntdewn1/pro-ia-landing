@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Hero } from './components/Hero';
 import { Authority } from './components/Authority';
 import { Chapters } from './components/Chapters';
@@ -9,10 +9,10 @@ import './styles/animations.css';
 
 function App() {
   useEffect(() => {
-    // Update the document title
+    // Atualiza o título da aba
     document.title = "PRO.IA | Ganhe R$300 por dia com IA";
     
-    // Set CSS variables for our theme colors
+    // Define as variáveis CSS de tema
     document.documentElement.style.setProperty('--color-purple', '#b026ff');
     document.documentElement.style.setProperty('--color-magenta', '#ff00ff');
   }, []);
