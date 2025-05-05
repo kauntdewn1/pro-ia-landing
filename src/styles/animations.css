@@ -31,12 +31,13 @@
   animation-play-state: running;
 }
 
-/* Grid Background */
+/* Grid Background Corrigido */
 .bg-grid {
+  background-color: #000000; /* fundo preto sólido */
   background-image: 
-    linear-gradient(to right, #333333 1px, transparent 1px),
-    linear-gradient(to bottom, #333333 1px, transparent 1px);
-  background-size: 20px 20px;
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 /* Pulse Animation */
