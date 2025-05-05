@@ -5,7 +5,7 @@ export const Authority: React.FC = () => {
   return (
     <section className="relative py-20 px-4 bg-black bg-opacity-95 overflow-hidden">
       <CircuitPattern className="absolute inset-0 opacity-10" />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           
@@ -15,28 +15,24 @@ export const Authority: React.FC = () => {
               {/* Avatar Frame */}
               <div className="w-48 h-48 border-2 border-purple-500 rounded-full flex items-center justify-center">
                 <div className="w-40 h-40 bg-gradient-to-br from-gray-900 to-black rounded-full overflow-hidden flex items-center justify-center">
-                  {/* SVG Tech Avatar */}
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto mb-2 text-magenta-500">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="8" r="5" />
-                        <path d="M20 21v-2a7 7 0 0 0-14 0v2" />
-                      </svg>
-                    </div>
-                    <div className="text-magenta-500 font-mono text-xs">SPECIALIST.AI</div>
-                  </div>
+                  {/* FOTO DO NETTO */}
+                  <img
+                    src="https://res.cloudinary.com/dgyocpguk/image/upload/v1746429691/NETTOFLOW293_o3ps8p_vrneib.jpg"
+                    alt="Netto Mello"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
-              
+
               {/* HUD Elements around avatar */}
               <div className="absolute -top-4 -left-4 w-8 h-8 border-t-2 border-l-2 border-purple-500"></div>
               <div className="absolute -bottom-4 -right-4 w-8 h-8 border-b-2 border-r-2 border-purple-500"></div>
-              
+
               <div className="absolute -top-2 right-0 text-xs text-magenta-500 font-mono">ID.45892</div>
               <div className="absolute -bottom-2 left-0 text-xs text-purple-500 font-mono">STATUS: ONLINE</div>
             </div>
           </div>
-          
+
           {/* Text Content */}
           <div className="md:col-span-8">
             <div className="bg-gray-900 bg-opacity-70 border-l-2 border-purple-500 p-6 relative">
@@ -47,7 +43,7 @@ export const Authority: React.FC = () => {
                 <div className="w-2 h-2 rounded-full bg-green-500 mr-1"></div>
                 <div className="ml-4 text-xs text-gray-400 font-mono">terminal ~ experience.sh</div>
               </div>
-              
+
               <div className="mt-6 pl-4 border-l border-gray-700 font-mono">
                 <p className="text-gray-300 mb-4 leading-relaxed">
                   <span className="text-green-400">$ </span>
@@ -63,12 +59,12 @@ export const Authority: React.FC = () => {
                   [System]: Metodologia validada. Resultados sujeitos a dedicação do usuário.
                 </p>
               </div>
-              
+
               {/* Terminal decorative elements */}
               <div className="absolute bottom-2 right-2 text-xs text-purple-500 opacity-50 font-mono">~/PRO.IA/v3.5</div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
