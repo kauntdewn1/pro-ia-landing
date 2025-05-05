@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
         </div>
         
         <h1 className="mb-6 text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-          <GlitchText>PRO.IA</GlitchText>
+        <GlitchText>{'PRO.IA'}</GlitchText>
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-magenta-500">
             R$300 por dia com IA
           </span>
