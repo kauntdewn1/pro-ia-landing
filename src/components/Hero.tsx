@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
         </p>
         
         <div className="flex justify-center">
-          <CTAButton href="#download">QUERO O GUIA AGORA</CTAButton>
+          <CTAButton href="https://openpix.com.br/pay/c7991814-c55a-4e99-8edf-215ef856a0bf">QUERO O GUIA AGORA</CTAButton>
         </div>
         
         <div className="mt-12 md:mt-16 lg:mt-20">

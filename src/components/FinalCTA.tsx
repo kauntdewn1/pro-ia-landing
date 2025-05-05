@@ -62,7 +62,7 @@ export const FinalCTA: React.FC = () => {
               </div>
               
               <div className="flex justify-center">
-                <CTAButton href="#download" size="large">BAIXAR GUIA</CTAButton>
+                <CTAButton href="https://openpix.com.br/pay/c7991814-c55a-4e99-8edf-215ef856a0bf" size="large">BAIXAR GUIA</CTAButton>
               </div>
               
               <div className="mt-6 flex items-center justify-center space-x-6">
