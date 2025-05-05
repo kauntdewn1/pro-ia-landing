@@ -69,7 +69,7 @@ export const Bonus: React.FC = () => {
                   </div>
                   
                   <div className="flex justify-center">
-                    <CTAButton href="#vip" variant="secondary">QUERO O VIP</CTAButton>
+                    <CTAButton href="https://openpix.com.br/pay/c7991814-c55a-4e99-8edf-215ef856a0bf" variant="secondary">QUERO O VIP</CTAButton>
                   </div>
                 </div>
               </div>
